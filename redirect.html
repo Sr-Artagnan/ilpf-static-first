@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirect</title>
+
+  <!-- main -->
+<link rel="stylesheet" href="./public/styles/partials/menu_mob.css">
+<link rel="stylesheet" href="./public/styles/partials/header.css">
+<link rel="stylesheet" href="./public/styles/partials/footer.css">
+<link rel="stylesheet" href="./public/fontawesome/css/all.css">
+
+	<!-- SCRIPTS -->
+  <script type="text/javascript" src="./public/scripts/menu_mob.js" defer></script>
+</head>
+<body>
+  
+
+
+<header id="header">
+ 
+	<div class="wrapper">
+
+		<div class="logo">
+			<img class="logo-img" src="./public/images/logo.png" alt="IFTM">
+			<h1 class="logo-name">GESA</h1>
+			<p class="Group">Grupo de estudos em <br> Sistema Agrosilvipastoril</p>	
+		</div>
+
+	
+		<nav class="menu">
+			<a href="./index.html" class="menu-link">Sobre</a>
+			<a href="#footer" title="No rodapé" class="menu-link">Contato</a>
+			<a href="./subscription.html" class="menu-link">Inscrição</a>
+			<a href="./classroom.html" class="menu-link">Sala de aula</a>
+		</nav>
+	
+	</div>
+
+	<div style="display: flex; align-items: center; align-content: center; justify-content: center; align-self: center; justify-self: center; height: 100%;">
+		<button id="menu_button"><i class="fas fa-bars" style="color: white; font-size: 18px;"></i>
+			<span class="menu_mobile hidden">
+				<span id="close_menu_mobile"><i class="fas fa-angle-up"></i></span>
+						<a href="./index.html" class="menu_mobile_option">Sobre</a>
+						<a href="#footer" class="menu_mobile_option">Contato</a>
+						<a href="./subscription.html" class="menu_mobile_option">Inscrição</a>
+						<a style="border-radius: 0px 0px 5px 5px" href="./classroom.html" class="menu_mobile_option">Sala de aula</a>
+					</span>
+				</button>
+		
+	</div>
+
+</header>
+<div class="wrapper_div" >
+  
+  <h1 class="redirect_h1" style="color:#DD4A48"><i class="warning_button fas fa-exclamation-triangle"></i>&nbsp É necessário <a href="subscription.html#subscription_card">fazer a inscrição</a> primeiro para acessar a sala de aula.</h1> <br> <h1 class="redirect_h1">Após a inscrição, Será enviado um novo link para seu e-mail.</h1>
+
+</div>
+
+<style>
+
+	a{
+		color:#ff3b38
+	}
+.wrapper_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: 200px, 200px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.warning_button {
+  color: #DD4A48;
+  font-size: 25px;
+  position: relative;
+}
+
+.redirect_h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #44475A;
+}
+
+</style>
+
+<footer id="footer">
+
+	<div class="wrapper">
+
+		<div class="logo">
+			<img class="logo-img" src="./public/images/logo_normal.png" alt="IFTM">
+			<h1 class="logo-name">GESA</h1>
+			<p class="Group">Grupo de estudos em <br> Sistema Agrosilvipastoril</p>
+			</div>
+	</div>
+
+	<div class="contact">
+		<div class="contact_card">
+		<a href="mailto: gesaiftm@gmail.com" id="email"><i id="mail_icon" class="far fa-envelope" style="font-weight: 300" ></i>
+		<br>
+		<p id="email">gesaiftm@gmail.com</p> </a>
+		</div>
+		<div class="contact_card">
+		<a href="https://chat.whatsapp.com/JWBzgsyMQsWG9ibh3MSYEg" id="whatsapp"> <i id="whatsapp_icon" class="fab fa-whatsapp" style="font-weight: 300" ></i> <br> <p id="whatsapp" class="cont">Grupo GESA</p> </a>
+		</div>
+		<div class="contact_card"> 
+		<a href="https://www.instagram.com/gesa_iftm/" id="insta"><i id="insta_icon" class="fab fa-instagram" style="font-weight: 300" ></i> <br> 
+		<p id="insta" class="cont">Gesa_IFTM</p></a>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
