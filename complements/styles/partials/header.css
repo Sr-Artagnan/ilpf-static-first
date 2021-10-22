@@ -111,6 +111,12 @@ p {
   font-weight: bold;
 }
 
+.iftm_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 1030px) {
   #header {
     padding: 5px 5px;
