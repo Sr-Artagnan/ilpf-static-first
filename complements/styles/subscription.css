@@ -1,6 +1,5 @@
 
 p {
-  display: flex;
   font-size: 17px;
 }
 
@@ -137,5 +136,8 @@ p {
 }
 .img_icon{
   height: 30vh
+}
+.icon_info {
+  padding-left: 0;
 }
 }
